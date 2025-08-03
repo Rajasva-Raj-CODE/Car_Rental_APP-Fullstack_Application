@@ -11,7 +11,6 @@ await connectDB();
 app.use(cors());
 app.use(express.json());
 
-// Root route for health check
 app.get("/", (req, res) => {
     res.json({ message: "Car Rental API is running successfully!" });
 });
@@ -25,18 +24,8 @@ app.use("/api/booking", bookingRouter);
 
 
 
-// Error handling middleware
-app.use((err, req, res, next) => {
-    console.error(err.stack);
-    res.status(500).json({ error: 'Something went wrong!' });
-});
 
-// 404 handler for undefined routes
-app.use('*', (req, res) => {
-    res.status(404).json({ error: 'Route not found' });
-});
 
 app.listen(process.env.PORT || 3000, () => {
-    console.log(`Server is running on port ${process.env.PORT || 3000}`);
-    console.log(`Environment: ${process.env.NODE_ENV || 'development'}`);
+    console.log(`Server is running on port ${process.env.PORT}`);
 });
