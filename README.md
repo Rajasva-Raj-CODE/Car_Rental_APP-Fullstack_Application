@@ -2,7 +2,7 @@
 
 A full-stack MERN (MongoDB, Express.js, React.js, Node.js) car rental application that provides a seamless experience for both car owners and renters. The application features a modern, responsive design with real-time booking management, user authentication, and an intuitive dashboard for car owners.
 
-![Car Rental System](client/src/assets/readmeImages/Screenshot%20from%202025-08-05%2018-21-04.png)
+![Car Rental System](client/src/assets/readmeImages/homepage.png)
 
 ## 📋 Table of Contents
 
@@ -96,7 +96,7 @@ car_rental/
 ## 📸 Screenshots
 
 ### Homepage
-![Homepage](client/src/assets/readmeImages/Screenshot%20from%202025-08-05%18-20-53.png)
+![Homepage](client/src/assets/readmeImages/homepage.png)
 
 
 ### Car Listing
