@@ -21,7 +21,7 @@ const CarDetails = () => {
     setIsSubmitting(true);
 
     try {
-      const { data } = await axios.post("/api/booking/create", {
+      const { data } = await axios.post("/api/bookings/create", {
         car: id,
         pickupDate,
         returnDate,

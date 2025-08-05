@@ -43,7 +43,7 @@ const Cars = () => {
   const searchCarAvailablity = async () => {
     setIsLoading(true);
     try {
-      const { data } = await axios.post("api/bookings/check-availability", {
+      const { data } = await axios.post("/api/bookings/check-availability", {
         pickupDate,
         returnDate,
         location: pickupLocation,
