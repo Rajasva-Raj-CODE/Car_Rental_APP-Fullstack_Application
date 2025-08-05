@@ -96,7 +96,8 @@ car_rental/
 ## 📸 Screenshots
 
 ### Homepage
-![Homepage](client/src/assets/readmeImages/Screenshot%20from%202025-08-05%2018-21-04.png)
+![Homepage](client/src/assets/readmeImages/Screenshot%20from%202025-08-05%18-20-53.png)
+
 
 ### Car Listing
 ![Car Listing](client/src/assets/readmeImages/Screenshot%20from%202025-08-05%2018-21-14.png)
